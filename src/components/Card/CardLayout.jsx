@@ -1,19 +1,18 @@
 const CardLayout = ({title, img, alt, onClick, imgClassName}) => {
   return (
-    // xs:w-32 xs:h-32 xs:py-3
-    <div className="p-10 mr-4">
-      <div className="w-80 h-80 beige-light">
+    <div className="p-10 mr-4 tablet:max-w-40 xs:flex xs:flex-col xs:p-1 xs:mt-7 xs:mr-0">
+      <div className="w-80 h-80 tablet:w-40 tablet:h-40 beige-light">
         <img
           className={imgClassName}
           src={img}
           alt={alt}
         />
       </div>
-      <div className="flex justify-end flex-row pt-1">
-        <p className="font-bold text-lg orange-dark-text">{title}</p>
+      <div className="flex justify-end flex-row pt-1 tablet:pt-6 xs:justify-center">
+        <p className="font-bold text-lg tablet:text-sm xs:text-sm orange-dark-text">{title}</p>
       </div>
-      <div className="flex justify-end flex-row pt-2">
-        <button onClick={onClick} className="text-sm font-bold text-white beige-orange-button">Conheça mais</button>
+      <div className="flex justify-end flex-row pt-2 xs:justify-center">
+        <button onClick={onClick} className="text-sm tablet:text-xs xs:text-xs font-bold text-white beige-orange-button">Conheça mais</button>
       </div>
     </div>
 );
