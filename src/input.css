@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mobile {
+  @media screen {
+    min-width: 375px;
+    max-width: 414px;
+  }
+}
+
+.w-182 {
+  width: 182px;
+}
+
+.beige-orange {
+  background-color: #CA7F51;
+}
+
+.beige-orange-text {
+  color: #AF6C42;
+}
+
+.border-orange {
+  border-color: #CA7F51;
+}
+
+.light-gray {
+  background-color: #D2CABB;
+}
+
+.beige-light {
+  background-color: rgba(202, 127, 81, 0.26);
+}
+
+.orange-dark-text {
+  color: #736C5D;
+}
+
+.beige-orange-hover:hover {
+  background-color: rgba(173, 98, 52, 0.45);
+  padding-right: 20px;
+  transition: all .2s linear;
+}
+
+.beige-orange-active:active {
+  background-color: rgba(173, 98, 52, 0.45);
+  padding-right: 20px;
+  transition: all .2s linear;
+}
+
+.beige-orange-button {
+  background-color: #AD6234;
+  padding: 10px;
+}
+
+.beige-orange-button:hover {
+  background-color: #d47234;
+  transition: all .4s linear;
+}
+
+#banner-div {
+  position:relative;
+}
+
+#banner-div img {
+  height: 100%;
+  width: 100%;
+}
+
+#banner-div h1 {
+  margin: 0;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#banner-div p {
+  margin: 0;
+	position: absolute;
+	top: 54%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#banner-div button {
+  margin: 0;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
