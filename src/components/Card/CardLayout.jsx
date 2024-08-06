@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const CardLayout = ({title, img, alt, onClick, imgClassName}) => {
   return (
     <div className="p-10 mr-4 tablet:max-w-40 xs:flex xs:flex-col xs:p-1 xs:mt-7 xs:mr-0">
@@ -17,5 +19,13 @@ const CardLayout = ({title, img, alt, onClick, imgClassName}) => {
     </div>
 );
 }
+
+CardLayout.propTypes = {
+  title: PropTypes.string,
+  img: PropTypes.node,
+  alt: PropTypes.string,
+  onClick: PropTypes.func,
+  imgClassName: PropTypes.node
+};
 
 export default CardLayout;

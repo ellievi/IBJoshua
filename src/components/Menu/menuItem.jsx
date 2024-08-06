@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const MenuItem = ({isLateralMenu, onClick}) => {
   const menuItemsData = [
@@ -20,5 +21,10 @@ const MenuItem = ({isLateralMenu, onClick}) => {
     </ul>
   );
 }
+
+MenuItem.propTypes = {
+  isLateralMenu: PropTypes.bool,
+  onClick: PropTypes.func
+};
 
 export default MenuItem;
