@@ -1,11 +1,15 @@
 import CardLayout from './CardLayout';
-import RedeDeMulheresEster from '../../assets/svg/RedeDeMulheresEster.svg'
-import Peniel from '../../assets/svg/Peniel.svg'
-import Khronos from '../../assets/svg/Khronos.svg'
-import SementesDeCristo from '../../assets/svg/SementesDeCristo.svg'
-import SomDeAdoradores from '../../assets/svg/SomDeAdoradores.svg'
+import RedeDeMulheresEster from '../../assets/svg/RedeDeMulheresEster.svg';
+import Peniel from '../../assets/svg/Peniel.svg';
+import Khronos from '../../assets/svg/Khronos.svg';
+import SementesDeCristo from '../../assets/svg/SementesDeCristo.svg';
+import SomDeAdoradores from '../../assets/svg/SomDeAdoradores.svg';
+import Modal from '../Modal';
+import {useState} from 'react';
 
 const Card = () => {
+  const [openModal, setOpenModal] = useState(false);
+
     return (
       <>
       <div className="flex flex-row xs:flex xs:flex-col">
@@ -14,6 +18,12 @@ const Card = () => {
           imgClassName="py-8 tablet:py-4"
           title="Rede de Mulheres Ester"
           alt="Ilustração de uma mulher representando a rainha Ester."
+          onClick={() => setOpenModal(!openModal)}
+        />
+        <Modal 
+        isOpen={openModal}
+        onBack={() => setOpenModal(false)}
+        type="rededemulheresester"
         />
 
         <CardLayout
