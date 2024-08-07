@@ -20,7 +20,7 @@ const Card = () => {
           alt="Ilustração de uma mulher representando a rainha Ester."
           onClick={() => setOpenModal(!openModal)}
         />
-        <Modal 
+        <Modal
         isOpen={openModal}
         onBack={() => setOpenModal(false)}
         type="rededemulheresester"
