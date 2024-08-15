@@ -6,6 +6,7 @@ import './input.css';
 
 import AppRoutes from './App';
 import Menu from './components/Menu';
+import Footer from './components/Footer';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -14,7 +15,8 @@ root.render(
   <StrictMode>
     <BrowserRouter>
     <Menu />
-      <AppRoutes />
+    <AppRoutes />
+    <Footer />
     </BrowserRouter>
   </StrictMode>
 );
