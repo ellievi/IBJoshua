@@ -32,11 +32,11 @@ const SectionLocationAndSchedule = () => {
           description="Av. Um, n° 100, Curado IV, Jaboatão dos Guararapes"
         />
         <CardSections
-          title="Horários"
+          title="Horários da semana"
           description={
             schedule.map((item) => (
               <>
-              <p className="text-white">
+              <p className="text-white pt-4">
                 {item.title}
               </p>
               <p className="text-white">
