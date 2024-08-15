@@ -30,6 +30,10 @@
   color: #AF6C42;
 }
 
+.beige-orange-text:hover {
+  color: #e07837;
+}
+
 .beige-orange-text-shadow {
   color: #AF6C42;
   filter: drop-shadow(0 4px 3px rgba(255, 255, 255, 0.678));
@@ -135,4 +139,24 @@
 
 .h-96 {
   height: 615px;
+}
+
+#dailyVerses.bibleVerse
+{
+margin-top: .5em;
+}
+
+#dailyVerses.bibleVerse a
+{
+font-weight: bold;
+}
+
+.opacity-100:hover {
+  opacity: 100%;
+}
+
+.hover-title:hover {
+  background-color: #AD6234;
+  padding: 20px;
+  transition: width 2s, height 2s, background-color 2s
 }
