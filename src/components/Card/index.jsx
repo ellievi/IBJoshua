@@ -12,7 +12,7 @@ const Card = () => {
 
     return (
       <>
-      <div className="flex flex-row xs:flex xs:flex-col">
+      <div className="flex flex-row justify-center xs:grid xs:grid-cols-2">
         <CardLayout
           img={RedeDeMulheresEster}
           imgClassName="py-8 tablet:py-4"
@@ -28,7 +28,7 @@ const Card = () => {
 
         <CardLayout
           img={Peniel}
-          imgClassName="py-14 tablet:py-7"
+          imgClassName="py-2 tablet:py-7"
           title="Peniel"
           alt="Ilustração de um homem orando de joelhos com uma fonte escrito Peniel."
         />
@@ -40,17 +40,17 @@ const Card = () => {
           alt="Ilustração de uma bailarina com uma bíblia na mão e em cima de uma ampulheta. Há uma fonte escrito Ministério Khronos na superior esquerda e uma estampa floral na inferior direita."
         />
       </div>
-      <div className="flex flex-row justify-center tablet:justify-normal xs:flex xs:flex-col">
+      <div className="flex flex-row justify-center xs:grid xs:grid-cols-2">
         <CardLayout
           img={SementesDeCristo}
-          imgClassName="py-20 tablet:py-9"
+          imgClassName="py-6 tablet:py-9"
           title="Sementes De Cristo"
           alt="Ilustração de um peixe laranja lateralmente com um sorrido e três bolinhas à sua esquerda."
         />
 
         <CardLayout
           img={SomDeAdoradores}
-          imgClassName="py-36 tablet:py-20"
+          imgClassName="py-20 tablet:py-20"
           title="Som de Adoradores"
           alt="Ilustração de clave de sol laranja envolvida por representação de ondas sonoras verticais também laranjas."
         />
