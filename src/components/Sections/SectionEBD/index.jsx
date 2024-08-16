@@ -5,7 +5,7 @@ import SectionTitle from '../SectionTitle';
 const SectionEBD = () => {
   return (
     <SectionLayout 
-    background="bg-img"
+      background="bg-img"
     >
       <SectionTitle
         title="EBD Online"
@@ -21,7 +21,8 @@ const SectionEBD = () => {
         <br />
         Para obter o aplicativo de videoconferência utilizado para a realização do estudo de forma online, pode-se o instalar através
         da Play Store (sistemas Android), App Store (sistemas IOS) ou qualquer navegador (sistemas de Desktop).
-        </p>}
+        </p>
+        }
         textColor="beige-orange-text-shadow drop-shadow-lg"
       />
     </SectionLayout>
