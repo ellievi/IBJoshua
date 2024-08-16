@@ -4,22 +4,18 @@ import SectionTitle from '../../components/Sections/SectionTitle';
 const Locations = () => {
   return (
     <>
-    <div>
-      <SectionLayout>
+      <SectionLayout
+        background="bg-img"
+      >
       <SectionTitle
         title={
-          <p>
+          <p className="flex justify-center">
             Localizações
           </p>
         }
+        manualDivider
       />
-      <div className="flex flex-row">
-        <p className="justify-start max-w-96 pt-10 pl-12">
-          Igreja Batista Joshua
-        </p>
-      </div>
       </SectionLayout>
-    </div>
     </>
   );
 }
