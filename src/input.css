@@ -160,3 +160,7 @@ font-weight: bold;
   padding: 20px;
   transition: width 2s, height 2s, background-color 2s
 }
+
+.width-map {
+  width: 450px;
+}
