@@ -1,5 +1,6 @@
 import SectionLayout from '../../components/Sections/SectionLayout';
 import SectionTitle from '../../components/Sections/SectionTitle';
+import Orando from '../../assets/img/Orando.png';
 
 const Contribute = () => {
   return (
@@ -24,6 +25,11 @@ const Contribute = () => {
             </span>
           </p>
           <p className="mt-10">Você também pode contribuar em <span className="font-semibold">oração!</span></p>
+          <img
+            src={Orando}
+            className="mt-10 shadow-white shadow-lg max-w-96"
+            alt="Ilustração de um homem orando. Ele está vestindo uma camisa laranja."
+          />
         </div>
         </SectionLayout>
       </div>
