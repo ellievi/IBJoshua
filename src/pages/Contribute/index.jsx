@@ -9,13 +9,19 @@ const Contribute = () => {
         <SectionTitle
           title={
             <p>
-              Contribua com a obra
+              Contribua
             </p>
           }
         />
         <div className="flex flex-row">
-          <p className="justify-start max-w-96 pt-10 pl-12">
-            Igreja Batista Joshua
+          <p className="justify-start pt-10 pl-12">
+            Se você quer contribuir financeiramente com a Igreja Batista Joshua:
+            <br/>
+            <span className="font-semibold">
+              Chave: (81) 99674-8834
+              <br/>
+              Banco C6 S.A.
+            </span>
           </p>
         </div>
         </SectionLayout>
