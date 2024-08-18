@@ -8,7 +8,7 @@ import SomDeAdoradores from '../../assets/svg/SomDeAdoradores.svg';
 const Card = () => {
     return (
       <>
-      <div className="flex flex-row justify-center xs:grid xs:grid-cols-2">
+      <div className="flex flex-row justify-center xs:grid xs:grid-cols-1 xs:justify-items-center">
         <CardLayout
           img={RedeDeMulheresEster}
           imgClassName="py-8 tablet:py-4"
@@ -33,7 +33,7 @@ const Card = () => {
           modalType="khronos"
         />
       </div>
-      <div className="flex flex-row justify-center xs:grid xs:grid-cols-2">
+      <div className="flex flex-row justify-center xs:grid xs:grid-cols-1 xs:justify-items-center">
         <CardLayout
           img={SementesDeCristo}
           imgClassName="py-6 tablet:py-9"

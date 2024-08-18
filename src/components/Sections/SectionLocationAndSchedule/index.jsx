@@ -35,7 +35,7 @@ const SectionLocationAndSchedule = () => {
             <iframe 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.313197717804!2d-34.99836059058877!3d-8.069502791924831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1c8057449a17%3A0x890d8b93c835da88!2sAv.%20Um%2C%20N%C2%B0%20100%20-%20Curado%20IV%2C%20Jaboat%C3%A3o%20dos%20Guararapes%20-%20PE%2C%2054270-030!5e0!3m2!1sen!2sbr!4v1723938264254!5m2!1sen!2sbr" 
             title="LocalSede"
-            className="width-map xs:w-80"
+            className="width-map xs:w-72"
             height="350" 
             allowfullscreen="" 
             loading="lazy" 
