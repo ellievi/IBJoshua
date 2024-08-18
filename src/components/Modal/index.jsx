@@ -13,7 +13,7 @@ const Modal = ({type, isOpen, onBack, open}) => {
         description={
           <>
           <p>
-            A rede de mulheres Ester reúne mulheres
+            A <span className="font-semibold">rede de mulheres Ester</span> reúne mulheres
             <br/>
             com o propósito de adoração e louvor a Deus.
           </p>
@@ -37,9 +37,9 @@ const Modal = ({type, isOpen, onBack, open}) => {
         description={
           <>
           <p>
-            O ministério Peniel reúne jovens para exercer o ministério 
+            O ministério <span className="font-semibold">Peniel</span> reúne jovens para exercer a
             <br/>
-            de adoração, evangelho e louvor a Deus.
+            adoração, evangelho e louvor a Deus.
           </p>
           <br/>
             <span className="font-semibold">
@@ -63,7 +63,7 @@ const Modal = ({type, isOpen, onBack, open}) => {
         description={
           <>
           <p>
-            O ministério de coreografia Khronos exerce o ministério
+            O ministério de coreografia <span className="font-semibold">Khronos</span> exerce o ministério
             <br/>
             de adoração a Deus através da ministração de coreografias.
           </p>
@@ -85,7 +85,7 @@ const Modal = ({type, isOpen, onBack, open}) => {
         description={
           <>
           <p>
-            O ministério de infantil Sementes de Cristo tem por missão 
+            O ministério infantil <span className="font-semibold">Sementes de Cristo</span> tem por missão 
             <br/>
             educar crianças na doutrina do evangelho de Jesus.
           </p>
@@ -109,9 +109,9 @@ const Modal = ({type, isOpen, onBack, open}) => {
         description={
           <>
           <p>
-            O ministério de louvor Som de Adoradores exerce a adoração
+            O ministério <span className="font-semibold">Som de Adoradores</span>
             <br/>
-            a Deus através de vozes e instrumentos reunidos.
+            leva o amor de Cristo através do louvor.
           </p>
           <br/>
           <span className="font-semibold">
