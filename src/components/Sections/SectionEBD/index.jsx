@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import CardSections from '../../CardSections';
 import SectionLayout from '../SectionLayout';
 import SectionTitle from '../SectionTitle';
@@ -21,6 +22,13 @@ const SectionEBD = () => {
         <br />
         Para obter o aplicativo de videoconferência utilizado para a realização do estudo de forma online, pode-se o instalar através
         da Play Store (sistemas Android), App Store (sistemas IOS) ou qualquer navegador (sistemas de Desktop).
+        <br/>
+        <Link to="https://play.google.com/store/apps/details?id=com.google.android.apps.tachyon&hl=pt_BR&pli=1">
+          <button className="mt-2 text-sm beige-orange-text underline">Acessar página de download na Play Store</button>
+        </Link>
+        <Link to="https://apps.apple.com/br/app/google-meet/id1096918571">
+          <button className="mt-2 text-sm beige-orange-text underline">Acessar página de download na App Store</button>
+        </Link>
         </p>
         }
         textColor="beige-orange-text-shadow drop-shadow-lg"
