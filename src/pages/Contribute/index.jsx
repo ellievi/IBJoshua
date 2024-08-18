@@ -13,8 +13,8 @@ const Contribute = () => {
             </p>
           }
         />
-        <div className="flex flex-row">
-          <p className="justify-start pt-10 pl-12">
+        <div className="flex flex-col pt-10 pl-5">
+          <p className="justify-start">
             Se você quer contribuir financeiramente com a Igreja Batista Joshua:
             <br/>
             <span className="font-semibold">
@@ -23,6 +23,7 @@ const Contribute = () => {
               Banco C6 S.A.
             </span>
           </p>
+          <p className="mt-10">Você também pode contribuar em <span className="font-semibold">oração!</span></p>
         </div>
         </SectionLayout>
       </div>
