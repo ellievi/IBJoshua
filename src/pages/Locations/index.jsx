@@ -39,7 +39,7 @@ const Locations = () => {
           }
         />
         <CardSections
-          title="Congregação Joshua"
+          title="Congregação"
           description={
             <>
             <p>Rua José do Patrocínio, 37, Curado IV, Jaboatão dos Guararapes</p>
