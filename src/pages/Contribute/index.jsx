@@ -24,7 +24,7 @@ const Contribute = () => {
               Banco C6 S.A.
             </span>
           </p>
-          <p className="mt-10">Você também pode contribuar em <span className="font-semibold">oração!</span></p>
+          <p className="mt-10">Você também pode contribuir em <span className="font-semibold">oração!</span></p>
           <img
             src={Orando}
             className="mt-10 shadow-white shadow-lg max-w-96"
